@@ -1,0 +1,43 @@
+.me-content::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #105a77;
+    animation: showRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+.me-content .btn-box ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #105a77;
+    animation: showRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+.about-form::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #105a77;
+    animation: showRight 1s ease forwards;
+    animation-delay: .1s;
+}
+
+
+
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
